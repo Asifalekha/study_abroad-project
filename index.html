@@ -10,13 +10,13 @@
 
 </head>
 <body class="bg-blue-100">
-    <i class="fa-solid fa-moon"></i>
+    
     <div class="bg-blue-500 text-white text-center py-16">
             <h1 class="font-bold text-3xl shadow">Study MBBS Abroad..<i class="fa-solid fa-user-graduate"></i></h1>
             <p class="text-lg mt-2">Get admission in top universities worldwide.</p>
             <h2 class="font-semibold m-2">Get--> Set--> Fly--> <i class="fa-solid fa-plane"></i></h2>
             <a href="#form" class="bg-blue-200 text-blue-600 text-center p-1 inline-block outline hover:cursor-pointer duration:300 hover:scale-110 rounded shadow">Apply Now</a>
-            <p>new line</p>
+            
     </div>
     <div class="text-center  p-4">
         <h2 class="font-bold">Why Study MBBS..<i class="fa-solid fa-user-doctor"></i>.. Abroad?</h2>
@@ -40,40 +40,59 @@
             <div class="p-4 bg-white rounded shadow hover:cursor-pointer duration:200 hover:scale-110">Georgia</div>
             <div class="p-4 bg-white rounded shadow hover:cursor-pointer duration:200 hover:scale-110">Egypt</div>
         </div>
-        <section id="form" class="max-w-md mx-auto my-10 bg-white p-6 rounded shadow">
-            <h2 class="text-2xl font-semibold text-center mb-4">Apply Now</h2>
-            <form id="contactForm">
-                <div class="mb-4">
-                    <label class="block text-gray-700">Name</label>
-                    <input type="text" id="name" class="w-full border p-2 rounded" required>
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700">Email</label>
-                    <input type="email" id="email" class="w-full border p-2 rounded" required>
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700">Phone</label>
-                    <input type="tel" id="phone" class="w-full border p-2 rounded" required>
-                </div>
-                <div class="mb-4">
-                    <label class="block text-gray-700">Preferred Country</label>
-                    <select id="country" class="w-full border p-2 rounded" required>
-                        <option value="">Select Country</option>
-                        <option>Russia</option>
-                        <option>Uzbekistan</option>
-                        <option>Kazakhstan</option>
-                        <option>Philippines</option>
-                        <option>Georgia</option>
-                        <option>Egypt</option>
-                    </select>
-                </div>
-                <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded">Submit</button>
-            </form>
-            <p id="successMsg" class="text-green-600 text-center mt-4 hidden">Application submitted successfully!</p>
-        </section>
+        <div class="flex flex-col md:flex-row justify-center items-start space-x-10 my-10">
+           
+            <section class="w-full md:w-1/2 text-center md:text-left">
+                <h2 class="text-2xl font-semibold mb-4">Admission Process & Eligibility</h2>
+                <ol class="list-decimal text-left max-w-md mx-auto md:mx-0 space-y-2">
+                    <li>Choose a University</li>
+                    <li>Submit Your Application</li>
+                    <li>Receive Admission Letter</li>
+                    <li>Apply for a Student Visa</li>
+                    <li>Fly to Your Destination</li>
+                    <li>Education loan available</li>
+                </ol>
+            </section>
         
             
-                
+            <section id="form" class="w-full md:w-1/3 bg-white p-6 rounded shadow">
+                <h2 class="text-2xl font-semibold text-center mb-4">Apply Now</h2>
+                <form id="contactForm">
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Name</label>
+                        <input type="text" id="name" class="w-full border p-2 rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Email</label>
+                        <input type="email" id="email" class="w-full border p-2 rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Phone</label>
+                        <input type="tel" id="phone" class="w-full border p-2 rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700">Preferred Country</label>
+                        <select id="country" class="w-full border p-2 rounded" required>
+                            <option value="">Select Country</option>
+                            <option>Russia</option>
+                            <option>Uzbekistan</option>
+                            <option>Kazakhstan</option>
+                            <option>Philippines</option>
+                            <option>Georgia</option>
+                            <option>Egypt</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded">Submit</button>
+                </form>
+                <p id="successMsg" class="text-green-600 text-center mt-4 hidden">Application submitted successfully!</p>
+            </section>
+        </div>
+        
+        
+        
+            
+        <script src="script.js"></script>
+
       
 
 
